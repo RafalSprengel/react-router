@@ -9,8 +9,6 @@ import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import FormHelperText from '@material-ui/core/FormHelperText';
 
-
-
 const useStyles = makeStyles(theme => ({
     root: {
         display: 'flex',

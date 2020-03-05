@@ -47,7 +47,6 @@ const Header = ({ handleLogin }) => {
             </UserContextConsumer>
             {(loginFormPopUp && <PopUpLogin handleDialogClose={handleDialogClose} handleLogin={handleLogin} />)}
 
-
             <Switch>
                 <Route
                     exact

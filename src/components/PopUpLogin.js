@@ -32,7 +32,6 @@ function PopUpLogin({ handleDialogClose, handleLogin }) {
             '& h2': {
                 textAlign: 'center'
             }
-
         }
     }))
 
