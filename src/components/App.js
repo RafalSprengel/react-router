@@ -24,7 +24,7 @@ const App = () => {
       loggedUser={user}
       handleLogout={handleLogout}
     >
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
           <header>
             <Header handleLogin={handleLogin} />
