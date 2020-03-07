@@ -111,9 +111,9 @@ function PopUpLogin({ handleDialogClose, handleLogin }) {
                                         onChange={handleInputChange('name')}
                                         variant='outlined'
                                         label='Username'
-                                        auto='username'
                                         error={(errorUserName) ? true : false}
                                         helperText={(errorUserName) ? errorUserName : false}
+                                        autoComplete='username'
                                     />
                                     <PasswordField
                                         className={classes.textField}
