@@ -7,7 +7,6 @@ import Footer from '../layouts/Footer';
 import UserContextProvider from './contextUser';
 import Aside from '../layouts/Aside'
 
-
 const App = () => {
   const [user, setUser] = useState('');
 

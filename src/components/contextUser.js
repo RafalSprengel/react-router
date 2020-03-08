@@ -12,5 +12,6 @@ const UserContextProvider = ({ loggedUser, handleLogout, children }) => (
         {children}
     </UserContext.Provider>
 )
+
 export const UserContextConsumer = UserContext.Consumer;
 export default UserContextProvider

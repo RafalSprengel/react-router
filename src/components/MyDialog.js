@@ -9,7 +9,6 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 export default function ResponsiveDialog({ handleDialog }) {
   return (
     <div>
-
       <Dialog
         open
         onClose={handleDialog}

@@ -150,6 +150,4 @@ function PopUpLogin({ handleDialogClose, handleLogin }) {
     );
 }
 
-
-
 export default PopUpLogin
