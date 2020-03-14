@@ -1,5 +1,5 @@
 ## General info
-This is simple example how to create web application using React.js. I also used React-Router library which allows to navigate between differents links without reloading the page.
+This is a simple webpage created using React.js. I also used React-Router library which allows to navigate between differents links without reloading the page.
 
 ## Features:
 * Navigates between links without reloading the page,
